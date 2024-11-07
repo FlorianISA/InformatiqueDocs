@@ -1,0 +1,15 @@
+site_name: Cours d'informatique
+nav:
+  - Introduction: index.md
+  - GDevelop:
+    - Leçon 1: gdevelop/lesson1.md
+  - À propos: about.md
+markdown_extensions:
+  - toc:
+      title: Étapes
+theme:
+  name: material
+plugins:
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: False
