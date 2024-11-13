@@ -1,17 +1,25 @@
-# Welcome to MkDocs
+# Leçon 2
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Changer le mode de redimensionnement
+![type:video](videos/lesson2/lesson2_1.mp4)
 
-## Commands
+## Ajouter le fusil
+![type:video](videos/lesson2/lesson2_2.mp4)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Faire tenir le fusil au joueur
+![type:video](videos/lesson2/lesson2_3.mp4)
 
-## Project layout
+## Tourner le joueur en fonction de la souris
+![type:video](videos/lesson2/lesson2_4.mp4)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Faire en sorte que le fusil suive la souris
+![type:video](videos/lesson2/lesson2_5.mp4)
+
+## Ajouter la munition et le comportement du fusil
+![type:video](videos/lesson2/lesson2_6.mp4)
+
+## Tirer avec le clique gauche
+![type:video](videos/lesson2/lesson2_7.mp4)
+
+## Fixer le décalage de la munition
+![type:video](videos/lesson2/lesson2_8.mp4)

@@ -3,6 +3,7 @@ nav:
   - Introduction: index.md
   - GDevelop:
     - Leçon 1: gdevelop/lesson1.md
+    - Leçon 2: gdevelop/lesson2.md
   - À propos: about.md
 markdown_extensions:
   - toc:
