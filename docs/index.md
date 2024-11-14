@@ -11,7 +11,7 @@ et la logique derrière la programmation.
 ![alt text](images/wave_defense.gif)
 
 ### Amélioration du premier jeu
-Une fois les bases apprise, de manière autonome, effectuer quelques améliorations. Exemple:  
+Une fois les bases apprises, de manière autonome, effectuer quelques améliorations. Exemple:  
 
 * Ajouter un menu.
 * Comptabiliser le score.
