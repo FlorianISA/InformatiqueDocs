@@ -1,0 +1,4 @@
+ScreenToGif
+-----------------------
+2552 x 1234 (TinkerCAD)
+2550 x 1378 (GDevelop)

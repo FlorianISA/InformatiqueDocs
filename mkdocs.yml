@@ -1,16 +1,37 @@
 site_name: Cours d'informatique
 nav:
   - Introduction: index.md
-  - GDevelop:
-    - Leçon 1: gdevelop/lesson1.md
-    - Leçon 2: gdevelop/lesson2.md
+  - Codage:
+    - Contenu: coding/intro.md
+    - Exercice 1: coding/exercise1.md
+    - Exercice 2: coding/exercise2.md
+  - Jeux Vidéo:
+    - Contenu: videogames/intro.md
+    - Leçons:
+      - Leçon 1: videogames/lesson1.md
+      - Leçon 2: videogames/lesson2.md
+      - Leçon 3: videogames/lesson3.md
+    - Exercices:
+      - Exercice 1: videogames/exercise1.md
+  - Imprimante 3D:
+    - Contenu: 3dprinter/intro.md
+    - TinkerCAD:
+      - Exemple 1: 3dprinter/tinkercad_eg1.md
+      - Exercice 1: 3dprinter/tinkercad_ex1.md
+  - Hacking:
+    - Contenu: hacking/intro.md
   - À propos: about.md
 markdown_extensions:
   - toc:
       title: Étapes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
 theme:
   name: material
 plugins:
   - mkdocs-video:
       is_video: True
       video_autoplay: False
+  - mkdocs_quiz
