@@ -1,3 +1,3 @@
 # Introduction
 
-Bienvenu sur la plateforme du cours d'informatique ! 💻📚🚀
+Bienvenue sur la plateforme du cours d'informatique ! 💻📚🚀

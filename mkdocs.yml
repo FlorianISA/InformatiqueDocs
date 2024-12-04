@@ -5,6 +5,7 @@ nav:
     - Contenu: coding/intro.md
     - Exercice 1: coding/exercise1.md
     - Exercice 2: coding/exercise2.md
+    - Exercice 3: coding/exercise3.md
   - Jeux Vidéo:
     - Contenu: videogames/intro.md
     - Leçons:
@@ -18,6 +19,9 @@ nav:
     - TinkerCAD:
       - Exemple 1: 3dprinter/tinkercad_eg1.md
       - Exercice 1: 3dprinter/tinkercad_ex1.md
+    - FreeCAD:
+      - Exemple 1: 3dprinter/freecad_eg1.md
+      - Exercice 1: 3dprinter/freecad_ex1.md
   - Hacking:
     - Contenu: hacking/intro.md
   - À propos: about.md
