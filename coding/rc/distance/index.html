@@ -12,7 +12,7 @@
         <link rel="prev" href="../motors/">
       
       
-        <link rel="next" href="../exercises/">
+        <link rel="next" href="../ground_sensor/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -329,6 +329,27 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../base/loops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Boucles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
     
@@ -337,10 +358,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_6" >
         
           
-          <label class="md-nav__link" for="__nav_2_1_5" id="__nav_2_1_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_1_6" id="__nav_2_1_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -351,8 +372,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_1_5">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_6">
             <span class="md-nav__icon md-icon"></span>
             Exercices
           </label>
@@ -616,6 +637,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../ground_sensor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Capteur sol
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../exercises/" class="md-nav__link">
         
   
@@ -685,6 +727,27 @@
   
   <span class="md-ellipsis">
     1. Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../home/led/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. LED
   </span>
   
 
@@ -1496,7 +1559,25 @@ C'est très utile pour éviter les obstacles !</p>
 <h2 id="utilisation">Utilisation</h2>
 <p>Dans les fonctions, il y a deux blocs <code>Appel Mesure</code>. Un avec des côtés arondis et l'autre avec des côtés pointus.
 Le bloc qui nous intéresse est celui avec les côtés arrondis, car il <strong>retourne</strong> une valeur. </p>
-<p>C'est-à-dire, qu'on peut directement l'afficher ou l'utiliser dans une comparaison.</p></div><style type="text/css">.quiz {
+<p>C'est-à-dire, qu'on peut directement l'afficher ou l'utiliser dans une comparaison.</p>
+<!--- skip (distance)
+    function Mesure () {
+    pins.digitalWritePin(DigitalPin.P16, 0)
+    control.waitMicros(2)
+    pins.digitalWritePin(DigitalPin.P16, 1)
+    control.waitMicros(10)
+    pins.digitalWritePin(DigitalPin.P16, 0)
+    return Math.idiv(pins.pulseIn(DigitalPin.P15, PulseValue.High), 58)
+}
+
+    basic.forever(function () {
+    if (Mesure() < 30) {
+        basic.showString("Il y a un obstacle à moins de 30cm")
+    }
+    })
+-->
+
+<p><img alt="alt text" src="../../images/distance.png" width="400"></p></div><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
